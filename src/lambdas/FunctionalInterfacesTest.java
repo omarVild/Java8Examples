@@ -17,5 +17,6 @@ public class FunctionalInterfacesTest {
 		Runnable hilo = () -> System.out.println("Hilo1");
 		hilo.run();
 		
+		
 	}
 }
