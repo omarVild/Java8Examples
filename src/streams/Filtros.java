@@ -53,6 +53,9 @@ public class Filtros {
 		filtradoPalabrasN = palabras.stream().filter(palabrasConNPredicate);
 		long contadorPalabrasN = filtradoPalabrasN.count();
 		System.out.println("Numero de palabras con N: " + contadorPalabrasN);
-
+			
+		
+		
+		libro.close();
 	}
 }
